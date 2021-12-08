@@ -2,6 +2,10 @@
 
 Proyecto del curso de Desarrollo web de CODERHOUSE 
 
+## Autor
+
+- Carlos Velásquez - carlosvelasquezweb@gmail.com
+
 ##  tecnologías usadas
 
 - HTML5
