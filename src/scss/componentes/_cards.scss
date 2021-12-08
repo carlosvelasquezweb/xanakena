@@ -1,0 +1,28 @@
+.listado-cards {
+  @include boxing-flex;
+  flex-wrap: wrap;
+
+  .card {
+    box-shadow: 0 4px 8px 0 $color-dark;
+    transition: 0.3s;
+
+    border-radius: 5px;
+    margin: $standar-space;
+
+    &:hover {
+      box-shadow: 0 8px 16px 0 $color-call;
+    }
+    img {
+      width: 350px;
+      min-height: 350px;
+      border-radius: 5px 5px 0 0;
+    }
+    .container {
+      padding: $standar-space;
+
+      a {
+        color: $color-call;
+      }
+    }
+  }
+}

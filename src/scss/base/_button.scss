@@ -1,0 +1,25 @@
+.container-btn {
+  @include boxing-flex;
+}
+
+.btn,
+.btn-cta {
+  @include btn-base;
+}
+
+.btn {
+  @include btn-style-standar;
+  transition: 0.5s;
+  &:hover {
+    @include btn-style-diferent;
+  }
+}
+
+
+.btn-cta {
+  @include btn-style-diferent;
+  transition: 0.5s;
+  &:hover {
+    @include btn-style-standar;
+  }
+}

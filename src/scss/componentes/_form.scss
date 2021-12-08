@@ -1,0 +1,43 @@
+.contenedor-form {
+  display: flex;
+
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+// /* Formulario */
+
+.formulario, .maps-container{
+width: 40rem;
+ padding: $standar-space;
+  color: $color-light;
+  background-color: $color-dark;
+  border-radius: 5px;
+  margin: $standar-space;
+  box-sizing: border-box;
+}
+
+.maps-container {
+  ul li {
+    color: $color-light;
+  }
+}
+
+.campo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.campo label {
+  flex-basis: 1rem;
+}
+.campo input,
+.campo textarea,
+.campo select {
+
+  border: 1px solid $color-light;
+  border-radius: 3px;
+  padding: 1rem;
+ 
+}

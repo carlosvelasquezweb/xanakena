@@ -1,0 +1,29 @@
+/*Banner*/
+
+.banner {
+  margin: $standar-space;
+  border-radius: 5px;
+  background-color: $color-dark;
+  box-shadow: 0 4px 8px 0 $color-dark;
+  transition: 0.5s;
+}
+
+
+.banner-grid {
+  @include boxing-flex;
+  border-bottom: 5px solid $color-call;
+}
+
+.texto-banner {
+  text-align: justify;
+  color: $color-light;
+  padding: $standar-space * 2;
+  p{
+      font-size: 1.8rem;
+      color: $color-light;
+  }
+  h2 {
+    color:$color-light;
+  }
+}
+

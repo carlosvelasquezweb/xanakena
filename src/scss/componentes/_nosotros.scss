@@ -1,0 +1,18 @@
+/* Nosotros */
+.contenido-nosotros {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  column-gap: 2.5rem;
+  img {
+    width: 400px;
+    margin: 0 auto;
+  }
+}
+
+.informacion-nosotros {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: $standar-space;
+}

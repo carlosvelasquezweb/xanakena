@@ -1,0 +1,25 @@
+@mixin boxing-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin btn-base {
+  padding: 1.5rem 5rem;
+  margin: $standar-space;
+  background-color: $color-light;
+  border-radius: 5px;
+  text-transform: uppercase;
+  border: none;
+  
+}
+
+@mixin btn-style-standar {
+  background-color: $color-light;
+  color: $color-dark;
+}
+
+@mixin btn-style-diferent {
+  background-color: $color-call;
+  color: $color-light;
+}

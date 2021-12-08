@@ -1,0 +1,93 @@
+/*Header y Navegacion */
+@media (min-width: 601px) {
+  .mobile-container {
+    display: none;
+  }
+
+  .nombre-sitio {
+    margin-top: 5rem;
+    text-align: center;
+    color: $color-dark;
+  }
+
+  .contenedor-navegacion {
+    border-top: 0.1rem solid $color-light;
+    background-color: $color-dark;
+
+    a {
+      color: $color-light;
+      &:hover {
+        color: $color-call;
+      }
+    }
+  }
+
+  .nav-principal {
+    padding: $standar-space $standar-space;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 5px solid $color-call;
+  }
+
+  .nav-principal {
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 600px) {
+  .contenedor-navegacion {
+    display: none;
+  }
+  .nombre-sitio {
+    margin-top: 5rem;
+    text-align: center;
+    color: $color-dark;
+  }
+
+  .mobile-container {
+    margin: auto;
+    width: 100%;
+
+    color: $color-light;
+    border-radius: 10px;
+  }
+
+  .topnav {
+    overflow: hidden;
+    background-color: $color-dark;
+    position: relative;
+  }
+
+  .topnav #myLinks {
+    display: none;
+  }
+
+  .topnav a {
+    color: $color-light;
+    padding: $standar-space $standar-space;
+    text-decoration: none;
+    display: block;
+  }
+
+  .active{
+    background-color: $color-dark;
+  }
+
+  .topnav a.icon {
+    background: $color-call;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav a.icon:hover{
+    background-color:$color-light;
+  }
+
+  .topnav a:hover {
+    background-color: $color-dark;
+    color: $color-call;
+  }
+}

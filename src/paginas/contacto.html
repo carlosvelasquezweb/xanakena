@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Descripcion -->
+    <meta
+      name="description"
+      content="En Xanakena nos encargamos de desarrollar tu sitio web en tiempo y forma, contamos con profesionales certificados en las mejores escuelas de programación, garantizando que tengas la mejor experiencia y un trabajo de calidad. "
+    />
+
+    <!--Keywords -->
+    <meta
+      name="keywords"
+      content="html, html5, css, css3, js, javascript, ux, diseñador web, desarrollo web, desarrollor web, desarrollador web freelance, front-end developer, grid system, flexbox, mobile firts, pagina web, portafolio web, react, bootstrap"
+    />
+
+    <!-- Incluir Protocolo Open Graph-->
+    <meta
+      property="og:title"
+      content="Xanakena | Desarrollo Web | HTML5, CSS3 Y JavaScript"
+    />
+    <meta property="og:type" content="Desarrollo Web" />
+    <meta property="og:url" content="https://xanakena.com" />
+    <meta property="og:image" content="https://i.ibb.co/z4CCFFS/logo.jpg" />
+
+    <title>
+      Contacto | Xanakena | Desarrollo Web | HTML5, CSS3 Y JavaScript
+    </title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body>
+    <!--Loader-->
+    <div class="contenedor_loader">
+      <div class="loader"></div>
+    </div>
+
+    <!--header-->
+    <header>
+      <h1 class="nombre-sitio">Xanakena</h1>
+    </header>
+
+    <!--Menu-->
+    <div class="contenedor-navegacion">
+      <nav class="nav-principal contenedor">
+        <a href="../../index.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="proyectos.html">Proyectos</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+
+    <!-- ## Menu Responsive ## -->
+    <div class="mobile-container">
+      <div class="topnav">
+        <a class="active">Contacto</a>
+        <div id="myLinks">
+          <a href="../../index.html">Inicio</a>
+          <a href="nosotros.html">Nosotros</a>
+          <a href="proyectos.html">Proyectos</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </div>
+
+    <h1 class="text-center">Contacto</h1>
+
+    <main class="contenedor-form ">
+      <div class="form-container">
+        
+        <form class="formulario">
+          <div class="campo">
+            <label for="nombre">Nombre: 
+            <input id="nombre" type="text" placeholder="Tu Nombre" required />
+          </label>
+          </div>
+
+          <div class="campo">
+            <label for="asunto">Asunto:
+            <input id="asunto" type="text" placeholder="Tu Asunto" required />
+          </label>
+          </div>
+
+          <div class="campo">
+            <label for="email">E-mail:
+            <input id="email" type="email" placeholder="Tu Email" />
+          </label>
+          </div>
+
+          <div class="campo">
+            <label for="tel">Teléfono:
+            <input id="tel" type="tel" placeholder="Tu Teléfono" />
+            </label>
+          </div>
+
+          <div class="campo">
+            <label for="tel">Mensaje:
+            <textarea rows="10" cols="20"></textarea>
+          </label>
+          
+          </div>
+          <div class="campo">
+            <input class="btn" type="submit" value="Enviar"/>
+          </div>
+        </form>
+      </div>
+      <div class="maps-container">
+        <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105134.90576457848!2d-59.186752921092825!3d-34.56707850065838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc7d87a664c641%3A0x55098796c55322ae!2sLuj%C3%A1n%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1638498912228!5m2!1ses-419!2sar"
+                width="100%"
+                height="350"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+
+              <ul>
+                <li>Teléfono: +54 9 2323 342766</li>
+                <li>Correo: carlosvelasquezweb@gmail.com</li>
+                <li>Dirección: Luján, Provincia de Buenos Aires, Argentina.</li>
+              </ul>
+      </div>
+    </main>
+    <!-- Formulario de contacto 
+    
+      <section class="contenedor cards">
+        <div class="listado-cards">
+          <form class="formulario">
+            <div class="campo">
+              <label for="nombre">Nombre: </label>
+              <input id="nombre" type="text" placeholder="Tu Nombre" required />
+            </div>
+
+            <div class="campo">
+              <label for="asunto">Asunto:</label>
+              <input id="asunto" type="text" placeholder="Tu Asunto" required />
+            </div>
+
+            <div class="campo">
+              <label for="email">E-mail:</label>
+              <input id="email" type="email" placeholder="Tu Email" />
+            </div>
+
+            <div class="campo">
+              <label for="tel">Teléfono:</label>
+              <input id="tel" type="tel" placeholder="Tu Teléfono" />
+            </div>
+
+            <div class="campo">
+              <label for="tel">Mensaje:</label>
+              <textarea rows="10" cols="20"></textarea>
+            </div>
+            <div class="container-btn">
+              <input class="btn" type="submit" value="Enviar " />
+            </div>
+          </form>
+
+          <div class="card">
+            <div class="container">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105134.90576457848!2d-59.186752921092825!3d-34.56707850065838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bc7d87a664c641%3A0x55098796c55322ae!2sLuj%C3%A1n%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1638498912228!5m2!1ses-419!2sar"
+                width="350"
+                height="350"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              ></iframe>
+
+              <ul style="padding: 8px">
+                <b>Datos de contacto:</b>
+                <li>Teléfono: +54 9 2323 342766</li>
+                <li>Correo: carlosvelasquezweb@gmail.com</li>
+                <li>Dirección: Luján, Provincia de Buenos Aires, Argentina.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main> -->
+
+    <!--footer-->
+    <footer class="site-footer">
+      <div class="grid-footer contenedor">
+        <nav class="footer-menu">
+          <a href="https://linkedin.com/in/carlosalfredovelasquezferrer"
+            >Linkedin</a
+          >
+          <a href="https://github.com/carlosvelasquezweb">GitHub</a>
+          <a href="https://twitter.com/xanakena">Twitter</a>
+        </nav>
+
+        <div class="copyright">
+          <p>Todos los derechos Reservados &copy Xanakena 2021</p>
+        </div>
+      </div>
+    </footer>
+
+    <!--JavaScript-->
+    <script src="../js/app.js"></script>
+  </body>
+</html>
